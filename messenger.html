@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+</head>
+<style>
+    
+    #circle{
+        position: absolute;
+        top: 35%;
+        left: 35%;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: blue;
+
+    }
+    
+    #spike{
+        transform: rotate(-32deg);
+        position: absolute;
+        top: 85px;
+        left: 13px;
+        border-bottom: 20px solid blue;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        border-bottom-left-radius: 5px;
+    }
+    
+    #center{
+        width: 40px;
+        height: 15px;
+        background-color: white;
+        position: absolute;
+        top: 45px;
+        left: 30px;
+        border-radius: 20px;
+        transform: rotate(35deg);
+    }
+    
+    #rightCenter{
+        position: absolute;
+        border-bottom: 43px solid white;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        transform: rotate(40deg);
+        top: 25px;
+        left: 60px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    
+    #leftCenter{
+        position: absolute;
+        border-bottom: 43px solid white;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        transform: rotate(-140deg);
+        top: 35px;
+        left: 21px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+</style>
+<body>
+    <div id="container">
+        <div id="circle">
+            <div id="spike"></div>
+            <div id="rightCenter"></div>
+            <div id="leftCenter"></div>
+            <di id="center"v></div>
+        </div>
+    </div>
+</body>
+</html>

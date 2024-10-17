@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+</head>
+<style>
+    #outerBox{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 35%;
+        left: 35%;
+        border-radius: 25px;
+        background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    }
+    
+    
+    
+    #innerBox{
+        width: 60px;
+        height: 60px;
+        border: 7px solid white;
+        position: absolute;
+        border-radius: 23px;
+        top: 14px;
+        left: 14px;
+        background-color: transparent;
+    }
+    
+    #innerCircle{
+        width: 25px;
+        height: 25px;
+        border: 7px solid white;
+        border-radius: 50%;
+        position: absolute;
+        left: 11px;
+        top: 11px;
+    }
+    
+    #innerSmallCircle{
+        width: 9px;
+        height: 9px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        top: 5px;
+        right: 6px;
+    }
+</style>
+<body>
+    <div id="container">
+        <div id="outerBox">
+            <div id="innerBox">
+                <div id="innerCircle"></div>
+                <div id="innerSmallCircle"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
